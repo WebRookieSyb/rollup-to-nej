@@ -1,4 +1,4 @@
-# rollup-vue-nej
+# rollup-to-nej
 
 transform *.vue to *.js with nej define
 
@@ -6,10 +6,9 @@ transform *.vue to *.js with nej define
 ## Usage
 
 ``` sh
-npm i
+npm install
 
-npm run build
-
-npm start
+roll build vue -i ********.vue -o *****
+roll dev vue -i ********.vue -o *****
 ```
 
