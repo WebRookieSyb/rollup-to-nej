@@ -1,0 +1,42 @@
+{
+  "name": "rollup-to-nej",
+  "version": "1.0.0",
+  "description": "rollup-to-nej",
+  "bin": {
+    "roll": "./bin/rollTo.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebRookieSyb/rollup-vue-nej.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebRookieSyb/rollup-vue-nej/issues"
+  },
+  "homepage": "https://github.com/WebRookieSyb/rollup-vue-nej#readme",
+  "dependencies": {
+    "@babel/core": "^7.7.2",
+    "@rollup/plugin-alias": "^2.2.0",
+    "@rollup/plugin-replace": "^2.2.1",
+    "bluebird": "^3.7.1",
+    "inquirer": "^7.0.0",
+    "minimist": "^1.2.0",
+    "rollup": "^1.27.2",
+    "rollup-plugin-amd": "^4.0.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-postcss": "^2.0.3"
+  },
+  "devDependencies": {
+    "conventional-changelog-cli": "^2.0.28",
+    "http-server": "^0.11.1",
+    "rollup": "^1.27.2",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-vue": "^5.1.2",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
