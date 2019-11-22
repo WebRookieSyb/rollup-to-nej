@@ -20,6 +20,7 @@
   "homepage": "https://github.com/WebRookieSyb/rollup-vue-nej#readme",
   "dependencies": {
     "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
     "@rollup/plugin-alias": "^2.2.0",
     "@rollup/plugin-replace": "^2.2.1",
     "bluebird": "^3.7.1",
@@ -29,14 +30,12 @@
     "rollup-plugin-amd": "^4.0.0",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-postcss": "^2.0.3",
     "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^2.0.3",
     "rollup-plugin-vue": "^5.1.2",
     "vue-template-compiler": "^2.6.10"
   },
   "devDependencies": {
-    "conventional-changelog-cli": "^2.0.28",
-    "http-server": "^0.11.1",
-    "rollup": "^1.27.2"  
+    "conventional-changelog-cli": "^2.0.28"
   }
 }
