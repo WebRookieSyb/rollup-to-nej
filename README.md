@@ -8,7 +8,10 @@ transform *.vue to *.js with nej define
 ``` sh
 npm install
 
-roll build vue -i ********.vue -o *****
-roll dev vue -i ********.vue -o *****
+* build
+roll build vue -i *** -o ***
+
+* watch
+roll dev vue -i *** -o ***
 ```
 
