@@ -16,14 +16,14 @@ roll dev vue -i *** -o ***
 ```
 ### Support config
 .rolltonejrc.json
-```
+``` json
 {
   "input": "raw",
   "output": "src"
 }
 ```
 ### Support api
-```
+``` js
 const doRollup = require('rollup-to-nej')
 doRollup.build('vue', {input:"raw", output:"src"});
 ```
