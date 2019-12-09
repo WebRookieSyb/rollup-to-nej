@@ -2,6 +2,7 @@
   "name": "rollup-to-nej",
   "version": "1.0.0",
   "description": "rollup-to-nej",
+  "main": "./rollTo.js",
   "bin": {
     "roll": "./bin/rollTo.js"
   },
