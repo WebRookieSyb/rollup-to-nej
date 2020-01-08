@@ -34,7 +34,8 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-postcss": "^2.0.3",
     "rollup-plugin-vue": "^5.1.2",
-    "vue-template-compiler": "^2.6.10"
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
   },
   "devDependencies": {
     "conventional-changelog-cli": "^2.0.28",
