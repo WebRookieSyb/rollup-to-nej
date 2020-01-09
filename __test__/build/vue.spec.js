@@ -5,7 +5,10 @@ const util = require('util');
 
 const readFilePromsise = util.promisify(fs.readFile); // promise
 
-
+const replaceRandomString = source => {
+  const reg = /data-v-\w*_0/g
+  return source.replace(reg, 'data-v-all_0')
+}
 const getOutputFromGenerated = generated => (generated.output ? generated.output[0] : generated);
 
 async function getCodeFromBundle(bundle, customOptions = {}) {
@@ -14,7 +17,7 @@ async function getCodeFromBundle(bundle, customOptions = {}) {
 }
 
 describe("build:vue", () => {
-  it.only("a normal vue component in *.vue",async ()=> {
+  it("a normal vue component in *.vue",async ()=> {
     const { inputOptions,outputOptions} = formatOptionsForRollup({
         type:'vue',
         path:'__test__/build/src/test.js',
@@ -24,6 +27,7 @@ describe("build:vue", () => {
     const bundle = await rollup(inputOptions);
     const code = await getCodeFromBundle(bundle,outputOptions);
     const realResult = await readFilePromsise('__test__/build/dist/test.js','utf-8')
-    expect(code).toEqual(realResult);
+
+    expect(replaceRandomString(code)).toEqual(replaceRandomString(realResult));
   });
 });
