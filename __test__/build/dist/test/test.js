@@ -174,7 +174,7 @@ NEJ.define(['pool/util/image'], function (util) {
       /* style */
       const __vue_inject_styles__ = function (inject) {
         if (!inject) return
-        inject("data-v-45adfdfd_0", { source: ".footer-setting a,\n.footer-setting img {\n  display: block;\n}\n.footer-setting-wrap {\n  margin: 15px auto 60px;\n  width: 1205px;\n  overflow: hidden;\n}\n.footer-setting-left {\n  float: left;\n}\n.footer-setting-left img {\n  width: 910px;\n  height: 130px;\n}\n.footer-setting-right {\n  float: right;\n}\n.footer-setting-right img {\n  width: 225px;\n  height: 130px;\n}\n", map: {"version":3,"sources":["other.vue"],"names":[],"mappings":"AAAA;;EAEE,cAAc;AAChB;AACA;EACE,sBAAsB;EACtB,aAAa;EACb,gBAAgB;AAClB;AACA;EACE,WAAW;AACb;AACA;EACE,YAAY;EACZ,aAAa;AACf;AACA;EACE,YAAY;AACd;AACA;EACE,YAAY;EACZ,aAAa;AACf","file":"other.vue","sourcesContent":[".footer-setting a,\n.footer-setting img {\n  display: block;\n}\n.footer-setting-wrap {\n  margin: 15px auto 60px;\n  width: 1205px;\n  overflow: hidden;\n}\n.footer-setting-left {\n  float: left;\n}\n.footer-setting-left img {\n  width: 910px;\n  height: 130px;\n}\n.footer-setting-right {\n  float: right;\n}\n.footer-setting-right img {\n  width: 225px;\n  height: 130px;\n}\n"]}, media: undefined });
+        inject("data-v-26ad24b8_0", { source: ".footer-setting a,\n.footer-setting img {\n  display: block;\n}\n.footer-setting-wrap {\n  margin: 15px auto 60px;\n  width: 1205px;\n  overflow: hidden;\n}\n.footer-setting-left {\n  float: left;\n}\n.footer-setting-left img {\n  width: 910px;\n  height: 130px;\n}\n.footer-setting-right {\n  float: right;\n}\n.footer-setting-right img {\n  width: 225px;\n  height: 130px;\n}\n", map: undefined, media: undefined });
 
       };
       /* scoped */
@@ -189,7 +189,7 @@ NEJ.define(['pool/util/image'], function (util) {
       
 
       
-      var other = normalizeComponent(
+      const __vue_component__ = normalizeComponent(
         { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
         __vue_inject_styles__,
         __vue_script__,
@@ -207,7 +207,7 @@ NEJ.define(['pool/util/image'], function (util) {
     var Comp$1 = {
       name: 'footer-setting11',
       components: {
-        other: other
+        other: __vue_component__
       },
       props: {
         list: {
@@ -326,7 +326,7 @@ NEJ.define(['pool/util/image'], function (util) {
       /* style */
       const __vue_inject_styles__$1 = function (inject) {
         if (!inject) return
-        inject("data-v-36eadc48_0", { source: ".footer-setting a,\n.footer-setting img {\n  display: block;\n}\n.footer-setting-wrap {\n  margin: 15px auto 60px;\n  width: 1205px;\n  overflow: hidden;\n}\n.footer-setting-left {\n  float: left;\n}\n.footer-setting-left img {\n  width: 960px;\n  height: 130px;\n}\n.footer-setting-right {\n  float: right;\n}\n.footer-setting-right img {\n  width: 225px;\n  height: 130px;\n}\n", map: {"version":3,"sources":["ui.vue"],"names":[],"mappings":"AAAA;;EAEE,cAAc;AAChB;AACA;EACE,sBAAsB;EACtB,aAAa;EACb,gBAAgB;AAClB;AACA;EACE,WAAW;AACb;AACA;EACE,YAAY;EACZ,aAAa;AACf;AACA;EACE,YAAY;AACd;AACA;EACE,YAAY;EACZ,aAAa;AACf","file":"ui.vue","sourcesContent":[".footer-setting a,\n.footer-setting img {\n  display: block;\n}\n.footer-setting-wrap {\n  margin: 15px auto 60px;\n  width: 1205px;\n  overflow: hidden;\n}\n.footer-setting-left {\n  float: left;\n}\n.footer-setting-left img {\n  width: 960px;\n  height: 130px;\n}\n.footer-setting-right {\n  float: right;\n}\n.footer-setting-right img {\n  width: 225px;\n  height: 130px;\n}\n"]}, media: undefined });
+        inject("data-v-8adce222_0", { source: ".footer-setting a,\n.footer-setting img {\n  display: block;\n}\n.footer-setting-wrap {\n  margin: 15px auto 60px;\n  width: 1205px;\n  overflow: hidden;\n}\n.footer-setting-left {\n  float: left;\n}\n.footer-setting-left img {\n  width: 960px;\n  height: 130px;\n}\n.footer-setting-right {\n  float: right;\n}\n.footer-setting-right img {\n  width: 225px;\n  height: 130px;\n}\n", map: undefined, media: undefined });
 
       };
       /* scoped */
@@ -341,7 +341,7 @@ NEJ.define(['pool/util/image'], function (util) {
       
 
       
-      var UI = normalizeComponent(
+      const __vue_component__$1 = normalizeComponent(
         { render: __vue_render__$1, staticRenderFns: __vue_staticRenderFns__$1 },
         __vue_inject_styles__$1,
         __vue_script__$1,
@@ -354,7 +354,7 @@ NEJ.define(['pool/util/image'], function (util) {
         undefined
       );
 
-    MyComponent = Vue.extend(UI);
+    MyComponent = Vue.extend(__vue_component__$1);
 
     return MyComponent;
 
