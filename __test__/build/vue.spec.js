@@ -20,13 +20,26 @@ describe("build:vue", () => {
   it("a normal vue component in *.vue",async ()=> {
     const { inputOptions,outputOptions} = formatOptionsForRollup({
         type:'vue',
-        path:'__test__/build/src/test.js',
+        path:'__test__/build/src/test/test.js',
         input:'__test__/build/src',
         output:'__test__/build/dist'
     })
     const bundle = await rollup(inputOptions);
     const code = await getCodeFromBundle(bundle,outputOptions);
-    const realResult = await readFilePromsise('__test__/build/dist/test.js','utf-8')
+    const realResult = await readFilePromsise('__test__/build/dist/test/test.js','utf-8')
+
+    expect(replaceRandomString(code)).toEqual(replaceRandomString(realResult));
+  });
+  it("a jsx vue component in *.vue",async ()=> {
+    const { inputOptions,outputOptions} = formatOptionsForRollup({
+        type:'vue',
+        path:'__test__/build/src/jsx-test/test.js',
+        input:'__test__/build/src',
+        output:'__test__/build/dist'
+    })
+    const bundle = await rollup(inputOptions);
+    const code = await getCodeFromBundle(bundle,outputOptions);
+    const realResult = await readFilePromsise('__test__/build/dist/jsx-test/test.js','utf-8')
 
     expect(replaceRandomString(code)).toEqual(replaceRandomString(realResult));
   });

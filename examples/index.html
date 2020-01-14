@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+  <script src="http://edu-cms.nosdn.127.net/topics/js/vue_17e942ea0854bd9dce2070bae6826937.js"></script>
+  <script src="http://nej.netease.com/nej2/src/define.js?pro=./src&pool=../lib/"></script>
+  <script>
+    // Vue.config.devtools = true
+    NEJ.define(["{pro}/jsx-test/test.js"], function(UI) {
+        // console.warn(ui)
+      // var MyComponent = Vue.extend(ui);
+
+      // 创建并挂载到 #app (会替换 #app)
+      new UI({
+        // propsData: {
+        //   list: [
+        //     { picUrl: "//edu-image.nosdn.127.net/89a55f4107cf41ea80ca5d51591b8bc6.jpg?imageView&quality=100", linkUrl: "http://www.baidu.com" },
+        //     { picUrl: "//edu-image.nosdn.127.net/3049c923b31a40018117dd72315946ba.jpg?imageView&quality=100", linkUrl: "http://www.163.com" }
+        //   ]
+        // }
+      }).$mount("#app");
+    });
+  </script>
+</html>

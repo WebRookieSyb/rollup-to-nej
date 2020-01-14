@@ -19,7 +19,7 @@
 
 <script>
 import util from 'pool/util/image';
-import other from './other.vue';
+import other from '../another/someone/other.vue';
 // use123
 var Comp = {
     name: 'footer-setting11',

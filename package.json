@@ -7,7 +7,8 @@
     "roll": "./bin/rollTo.js"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "examples": "./bin/rollTo.js build vue -i examples/raw -o examples/src"
   },
   "repository": {
     "type": "git",
