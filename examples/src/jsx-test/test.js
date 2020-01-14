@@ -1,3 +1,12 @@
+/**
+* ------------------------------------------
+* Rollup vue to nej
+* @version  1.2.3
+* @path  examples/src/jsx-test/test.js
+* 
+* You need to check the changes after packing
+* ------------------------------------------
+*/
 NEJ.define(function () {
 
   var ShowFooter = {
