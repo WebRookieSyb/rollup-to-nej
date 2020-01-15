@@ -43,4 +43,18 @@ describe("build:vue", () => {
 
     expect(replaceRandomString(code)).toEqual(replaceRandomString(realResult));
   });
+
+  it("support for optional chaining",async ()=> {
+    const { inputOptions,outputOptions} = formatOptionsForRollup({
+        type:'vue',
+        path:'__test__/build/src/optionalChain/index.js',
+        input:'__test__/build/src',
+        output:'__test__/build/dist'
+    })
+    const bundle = await rollup(inputOptions);
+    const code = await getCodeFromBundle(bundle,outputOptions);
+    const realResult = await readFilePromsise('__test__/build/dist/optionalChain/index.js','utf-8')
+
+    expect(replaceRandomString(code)).toEqual(replaceRandomString(realResult));
+  });
 });
