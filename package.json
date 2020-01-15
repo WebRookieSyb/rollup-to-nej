@@ -22,6 +22,7 @@
   "homepage": "https://github.com/WebRookieSyb/rollup-vue-nej#readme",
   "dependencies": {
     "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.8.3",
     "@babel/plugin-proposal-optional-chaining": "^7.8.3",
     "@babel/preset-env": "^7.7.1",
     "@rollup/plugin-alias": "^2.2.0",

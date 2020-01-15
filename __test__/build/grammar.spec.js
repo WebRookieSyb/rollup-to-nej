@@ -16,30 +16,31 @@ async function getCodeFromBundle(bundle, customOptions = {}) {
 	return getOutputFromGenerated(await bundle.generate(options)).code;
 }
 
-describe("build:vue", () => {
-  it("a normal vue component in *.vue",async ()=> {
+describe("build:js", () => {
+
+  it("support for optional chaining",async ()=> {
     const { inputOptions,outputOptions} = formatOptionsForRollup({
         type:'vue',
-        path:'__test__/build/src/test/test.js',
+        path:'__test__/build/src/optionalChain/index.js',
         input:'__test__/build/src',
         output:'__test__/build/dist'
     })
     const bundle = await rollup(inputOptions);
     const code = await getCodeFromBundle(bundle,outputOptions);
-    const realResult = await readFilePromsise('__test__/build/dist/test/test.js','utf-8')
+    const realResult = await readFilePromsise('__test__/build/dist/optionalChain/index.js','utf-8')
 
     expect(replaceRandomString(code)).toEqual(replaceRandomString(realResult));
   });
-  it("a jsx vue component in *.vue",async ()=> {
+  it("support for optional nullish coalescing operator",async ()=> {
     const { inputOptions,outputOptions} = formatOptionsForRollup({
         type:'vue',
-        path:'__test__/build/src/jsx-test/test.js',
+        path:'__test__/build/src/nullish/index.js',
         input:'__test__/build/src',
         output:'__test__/build/dist'
     })
     const bundle = await rollup(inputOptions);
     const code = await getCodeFromBundle(bundle,outputOptions);
-    const realResult = await readFilePromsise('__test__/build/dist/jsx-test/test.js','utf-8')
+    const realResult = await readFilePromsise('__test__/build/dist/nullish/index.js','utf-8')
 
     expect(replaceRandomString(code)).toEqual(replaceRandomString(realResult));
   });
