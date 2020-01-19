@@ -1,5 +1,6 @@
 <template>
     <div class="footer-setting">
+        <div>{{txt}}</div>
         <other />
         <div v-if="list.length" class="footer-setting-wrap">
             <div v-if="leftUrl" class="footer-setting-left">
@@ -18,8 +19,9 @@
 </template>
 
 <script>
-import util from 'pool/util/image';
+// import util from 'pool/util/image';
 import other from '../another/someone/other.vue';
+import testUtil from '@nej/another/util';
 // use123
 var Comp = {
     name: 'footer-setting11',
@@ -32,8 +34,9 @@ var Comp = {
         }
     },
     data:()=>{
+        console.log(testUtil)
         return {
-            txt:util
+            txt:'你好，我是test'
         }
     },
     computed:{

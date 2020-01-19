@@ -6,7 +6,7 @@
 
 <script>
 
-import util from 'pool/util/image';
+// import util from 'pool/util/image';
 // use123
 var Comp = {
     name: 'other',
@@ -17,7 +17,7 @@ var Comp = {
     },
     data:()=>{
         return {
-            txt:util
+            txt:1111111111
         }
     }
 }

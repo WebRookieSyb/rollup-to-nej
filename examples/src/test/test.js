@@ -7,12 +7,18 @@
 * You need to check the changes after packing
 * ------------------------------------------
 */
-NEJ.define(['pool/util/image'], function (util) {
+NEJ.define(['../../aa/another/util'], function (testUtil) {
 
-    util = util && util.hasOwnProperty('default') ? util['default'] : util;
+    testUtil = testUtil && testUtil.hasOwnProperty('default') ? testUtil['default'] : testUtil;
 
     //
-
+    //
+    //
+    //
+    //
+    //
+    // import util from 'pool/util/image';
+    // use123
     var Comp = {
       name: 'other',
       props: {
@@ -22,7 +28,7 @@ NEJ.define(['pool/util/image'], function (util) {
       },
       data: function data() {
         return {
-          txt: util
+          txt: 1111111111
         };
       }
     };
@@ -183,7 +189,7 @@ NEJ.define(['pool/util/image'], function (util) {
       /* style */
       const __vue_inject_styles__ = function (inject) {
         if (!inject) return
-        inject("data-v-e040133e_0", { source: ".footer-setting a,\n.footer-setting img {\n  display: block;\n}\n.footer-setting-wrap {\n  margin: 15px auto 60px;\n  width: 1205px;\n  overflow: hidden;\n}\n.footer-setting-left {\n  float: left;\n}\n.footer-setting-left img {\n  width: 910px;\n  height: 130px;\n}\n.footer-setting-right {\n  float: right;\n}\n.footer-setting-right img {\n  width: 225px;\n  height: 130px;\n}\n", map: undefined, media: undefined });
+        inject("data-v-ea4cd672_0", { source: ".footer-setting a,\n.footer-setting img {\n  display: block;\n}\n.footer-setting-wrap {\n  margin: 15px auto 60px;\n  width: 1205px;\n  overflow: hidden;\n}\n.footer-setting-left {\n  float: left;\n}\n.footer-setting-left img {\n  width: 910px;\n  height: 130px;\n}\n.footer-setting-right {\n  float: right;\n}\n.footer-setting-right img {\n  width: 225px;\n  height: 130px;\n}\n", map: undefined, media: undefined });
 
       };
       /* scoped */
@@ -224,8 +230,9 @@ NEJ.define(['pool/util/image'], function (util) {
         }
       },
       data: function data() {
+        console.log(testUtil);
         return {
-          txt: util
+          txt: '你好，我是test'
         };
       },
       computed: {
@@ -284,6 +291,8 @@ NEJ.define(['pool/util/image'], function (util) {
         "div",
         { staticClass: "footer-setting" },
         [
+          _c("div", [_vm._v(_vm._s(_vm.txt))]),
+          _vm._v(" "),
           _c("other"),
           _vm._v(" "),
           _vm.list.length
@@ -335,7 +344,7 @@ NEJ.define(['pool/util/image'], function (util) {
       /* style */
       const __vue_inject_styles__$1 = function (inject) {
         if (!inject) return
-        inject("data-v-2f5b2d6e_0", { source: ".footer-setting a,\n.footer-setting img {\n  display: block;\n}\n.footer-setting-wrap {\n  margin: 15px auto 60px;\n  width: 1205px;\n  overflow: hidden;\n}\n.footer-setting-left {\n  float: left;\n}\n.footer-setting-left img {\n  width: 960px;\n  height: 130px;\n}\n.footer-setting-right {\n  float: right;\n}\n.footer-setting-right img {\n  width: 225px;\n  height: 130px;\n}\n", map: undefined, media: undefined });
+        inject("data-v-38afc9f3_0", { source: ".footer-setting a,\n.footer-setting img {\n  display: block;\n}\n.footer-setting-wrap {\n  margin: 15px auto 60px;\n  width: 1205px;\n  overflow: hidden;\n}\n.footer-setting-left {\n  float: left;\n}\n.footer-setting-left img {\n  width: 960px;\n  height: 130px;\n}\n.footer-setting-right {\n  float: right;\n}\n.footer-setting-right img {\n  width: 225px;\n  height: 130px;\n}\n", map: undefined, media: undefined });
 
       };
       /* scoped */

@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "jest",
-    "examples": "./bin/rollTo.js build vue -i examples/raw -o examples/src"
+    "examples": "./bin/rollTo.js build vue -i examples/raw -o examples/src -s @nej=../../aa,@abc=../../bb",
+    "examples:dev": "./bin/rollTo.js dev vue -i examples/raw -o examples/src"
   },
   "repository": {
     "type": "git",
