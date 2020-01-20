@@ -20,6 +20,7 @@
 <script>
 import util from 'pool/util/image';
 import other from '../another/someone/other.vue';
+import testUtil from '@nej/another/util';
 // use123
 var Comp = {
     name: 'footer-setting11',
@@ -32,6 +33,7 @@ var Comp = {
         }
     },
     data:()=>{
+        console.log(testUtil)
         return {
             txt:util
         }

@@ -333,7 +333,7 @@ NEJ.define(['../../aa/another/util'], function (testUtil) {
               ])
             : _vm._e(),
           _vm._v(" "),
-          _c("el-button", { attrs: { type: "text" } }, [_vm._v("文字按钮1")])
+          _c("el-button", { attrs: { type: "text" } }, [_vm._v("文字按钮12")])
         ],
         1
       )
@@ -344,7 +344,7 @@ NEJ.define(['../../aa/another/util'], function (testUtil) {
       /* style */
       const __vue_inject_styles__$1 = function (inject) {
         if (!inject) return
-        inject("data-v-38afc9f3_0", { source: ".footer-setting a,\n.footer-setting img {\n  display: block;\n}\n.footer-setting-wrap {\n  margin: 15px auto 60px;\n  width: 1205px;\n  overflow: hidden;\n}\n.footer-setting-left {\n  float: left;\n}\n.footer-setting-left img {\n  width: 960px;\n  height: 130px;\n}\n.footer-setting-right {\n  float: right;\n}\n.footer-setting-right img {\n  width: 225px;\n  height: 130px;\n}\n", map: undefined, media: undefined });
+        inject("data-v-eb0782ce_0", { source: ".footer-setting a,\n.footer-setting img {\n  display: block;\n}\n.footer-setting-wrap {\n  margin: 15px auto 60px;\n  width: 1205px;\n  overflow: hidden;\n}\n.footer-setting-left {\n  float: left;\n}\n.footer-setting-left img {\n  width: 960px;\n  height: 130px;\n}\n.footer-setting-right {\n  float: right;\n}\n.footer-setting-right img {\n  width: 225px;\n  height: 130px;\n}\n", map: undefined, media: undefined });
 
       };
       /* scoped */

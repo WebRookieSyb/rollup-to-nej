@@ -1,33 +1,54 @@
 # rollup-to-nej
 
-Transform *.js to *.js with nej define
+## Transform _.js to _.js with nej define
 
-If you want to use Vue or Vue Jsx, you still need a *.js to be entry file.
+If you want to use Vue or Vue Jsx, you still need a \*.js to be entry file.
 
 You can see how to use it in the examples file
 
 ## Usage
 
-``` sh
+```sh
 npm install
 
 * build
-roll build vue -i *** -o ***
+roll build vue -i *** -o *** -s ***=***,***=***
 
 * watch
 roll dev vue -i *** -o ***
 ```
+## Support alias
 
-### Support config
+You can use alias to avoid public modules being packaged. 
+use like `-s @nej=./src,vueSrc=../../`
+
+## Support config
+
 .rolltonejrc.json
-``` json
+
+```json
 {
   "input": "raw",
-  "output": "src"
+  "output": "src",
+  "alias": {
+    "@nej": "./src",
+    "vueSrc": "../../",
+    "***": "***"
+  }
 }
 ```
+
 ### Support api
-``` js
-const doRollup = require('rollup-to-nej')
-doRollup.build('vue', {input:"raw", output:"src"});
+
+```js
+const doRollup = require("rollup-to-nej");
+doRollup.build("vue", {
+  input: "raw",
+  output: "src",
+  alias: {
+    "@nej": "./src",
+    "vueSrc": "../../",
+    "***": "***"
+  }
+});
 ```

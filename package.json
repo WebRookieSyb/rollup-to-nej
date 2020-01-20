@@ -7,9 +7,9 @@
     "roll": "./bin/rollTo.js"
   },
   "scripts": {
-    "test": "jest",
+    "test": "node ./__test__/build/build && jest",
     "examples": "./bin/rollTo.js build vue -i examples/raw -o examples/src -s @nej=../../aa,@abc=../../bb",
-    "examples:dev": "./bin/rollTo.js dev vue -i examples/raw -o examples/src"
+    "examples:dev": "./bin/rollTo.js dev vue -i examples/raw -o examples/src -s @nej=../../aa,@abc=../../bb"
   },
   "repository": {
     "type": "git",
