@@ -1,7 +1,7 @@
 /**
 * ------------------------------------------
 * Rollup vue to nej
-* @version  1.2.3
+* @version  1.2.4
 * @path  examples/src/another/util.js
 * 
 * You need to check the changes after packing

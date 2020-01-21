@@ -1,6 +1,6 @@
 # rollup-to-nej
 
-## Transform _.js to _.js with nej define
+***Transform _.js to _.js with nej define***
 
 If you want to use Vue or Vue Jsx, you still need a \*.js to be entry file.
 
@@ -15,12 +15,12 @@ npm install
 roll build vue -i *** -o *** -s ***=***,***=***
 
 * watch
-roll dev vue -i *** -o ***
+roll dev vue -i *** -o *** -s ***=***,***=***
 ```
 ## Support alias
 
 You can use alias to avoid public modules being packaged. 
-use like `-s @nej=./src,vueSrc=../../`
+use like `-s @nej=./src,vueSrc=../../` . Please note that if you use `@` , you can not use like `@**` or `*@*`
 
 ## Support config
 
@@ -38,7 +38,7 @@ use like `-s @nej=./src,vueSrc=../../`
 }
 ```
 
-### Support api
+## Support api
 
 ```js
 const doRollup = require("rollup-to-nej");
