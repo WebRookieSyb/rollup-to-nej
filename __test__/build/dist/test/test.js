@@ -18,7 +18,7 @@ NEJ.define(['pool/util/image', '..//another/util'], function (util, testUtil) {
       name: 'other',
       props: {
         list: {
-          "default": []
+          default: []
         }
       },
       data: function data() {
@@ -221,7 +221,7 @@ NEJ.define(['pool/util/image', '..//another/util'], function (util, testUtil) {
       },
       props: {
         list: {
-          "default": []
+          default: []
         }
       },
       data: function data() {
