@@ -1,7 +1,7 @@
 /**
 * ------------------------------------------
 * Rollup vue to nej
-* @version  1.2.5
+* @version  1.2.6
 * @path  __test__/build/dist/ts/index.js
 * 
 * You need to check the changes after packing
