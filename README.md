@@ -28,6 +28,7 @@ roll init
 
 
 .rolltonejrc.json
+use include to set real pack file
 
 ```json
 {
@@ -37,7 +38,11 @@ roll init
     "@nej": "./src",
     "vueSrc": "../../",
     "***": "***"
-  }
+  },
+  "include": [
+    "raw/button",
+    "raw/tab/index.js"
+  ]
 }
 ```
 
