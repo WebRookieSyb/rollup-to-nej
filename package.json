@@ -36,6 +36,7 @@
     "cosmiconfig": "^6.0.0",
     "globby": "^10.0.1",
     "inquirer": "^7.0.0",
+    "jsonfile": "^6.0.1",
     "rollup": "^1.27.2",
     "rollup-plugin-amd": "^4.0.0",
     "rollup-plugin-babel": "^4.3.3",

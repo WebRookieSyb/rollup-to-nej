@@ -20,6 +20,13 @@ roll dev vue -i *** -o *** -s ***=***,***=***
 
 ## Support config
 
+generate config file by:
+
+```
+roll init 
+```
+
+
 .rolltonejrc.json
 
 ```json
