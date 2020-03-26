@@ -1,6 +1,6 @@
 {
   "name": "rollup-to-nej",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "rollup-to-nej",
   "main": "./rollTo.js",
   "bin": {
@@ -45,12 +45,12 @@
     "rollup-plugin-postcss": "^2.0.3",
     "rollup-plugin-vue": "^5.1.2",
     "vue": "^2.6.11",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "rollup-plugin-cleanup": "^3.1.1"
   },
   "devDependencies": {
     "conventional-changelog-cli": "^2.0.28",
     "jest": "^24.9.0",
-    "jest-plugin-fs": "^2.9.0",
-    "rollup-plugin-cleanup": "^3.1.1"
+    "jest-plugin-fs": "^2.9.0"
   }
 }
