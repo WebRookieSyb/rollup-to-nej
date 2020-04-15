@@ -9,6 +9,9 @@ const normalList = [
 ];
 const rmCommentList =  [
   "removeComments"
+];
+const externalHelpersList = [
+  "externalHelpers"
 ]
 normalList.map(normal => {
   doRollup.doBuild("vue", {
@@ -26,4 +29,10 @@ rmCommentList.map(rm => {
     removeComments: true
   });
 })
-
+externalHelpersList.map(item => {
+  doRollup.doBuild("vue", {
+    input: `__test__/build/src/${item}`,
+    output: `__test__/build/dist/${item}`,
+    externalHelpers: true
+  });
+})

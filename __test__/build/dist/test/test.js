@@ -1,7 +1,7 @@
 /**
 * ------------------------------------------
 * Rollup vue to nej
-* @version  1.2.6
+* @version  1.2.9
 * @path  __test__/build/dist/test/test.js
 * 
 * You need to check the changes after packing
@@ -184,7 +184,7 @@ NEJ.define(['pool/util/image', '..//another/util'], function (util, testUtil) {
       /* style */
       const __vue_inject_styles__ = function (inject) {
         if (!inject) return
-        inject("data-v-26ad24b8_0", { source: ".footer-setting a,\n.footer-setting img {\n  display: block;\n}\n.footer-setting-wrap {\n  margin: 15px auto 60px;\n  width: 1205px;\n  overflow: hidden;\n}\n.footer-setting-left {\n  float: left;\n}\n.footer-setting-left img {\n  width: 910px;\n  height: 130px;\n}\n.footer-setting-right {\n  float: right;\n}\n.footer-setting-right img {\n  width: 225px;\n  height: 130px;\n}\n", map: undefined, media: undefined });
+        inject("data-v-45adfdfd_0", { source: ".footer-setting a,\n.footer-setting img {\n  display: block;\n}\n.footer-setting-wrap {\n  margin: 15px auto 60px;\n  width: 1205px;\n  overflow: hidden;\n}\n.footer-setting-left {\n  float: left;\n}\n.footer-setting-left img {\n  width: 910px;\n  height: 130px;\n}\n.footer-setting-right {\n  float: right;\n}\n.footer-setting-right img {\n  width: 225px;\n  height: 130px;\n}\n", map: undefined, media: undefined });
 
       };
       /* scoped */
@@ -337,7 +337,7 @@ NEJ.define(['pool/util/image', '..//another/util'], function (util, testUtil) {
       /* style */
       const __vue_inject_styles__$1 = function (inject) {
         if (!inject) return
-        inject("data-v-432461e6_0", { source: ".footer-setting a,\n.footer-setting img {\n  display: block;\n}\n.footer-setting-wrap {\n  margin: 15px auto 60px;\n  width: 1205px;\n  overflow: hidden;\n}\n.footer-setting-left {\n  float: left;\n}\n.footer-setting-left img {\n  width: 960px;\n  height: 130px;\n}\n.footer-setting-right {\n  float: right;\n}\n.footer-setting-right img {\n  width: 225px;\n  height: 130px;\n}\n", map: undefined, media: undefined });
+        inject("data-v-71656b66_0", { source: ".footer-setting a,\n.footer-setting img {\n  display: block;\n}\n.footer-setting-wrap {\n  margin: 15px auto 60px;\n  width: 1205px;\n  overflow: hidden;\n}\n.footer-setting-left {\n  float: left;\n}\n.footer-setting-left img {\n  width: 960px;\n  height: 130px;\n}\n.footer-setting-right {\n  float: right;\n}\n.footer-setting-right img {\n  width: 225px;\n  height: 130px;\n}\n", map: undefined, media: undefined });
 
       };
       /* scoped */

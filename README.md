@@ -74,3 +74,7 @@ use like `-s @nej=./src,vueSrc=../../` . Please note that if you use `@` , you c
 ### removeComments
 
 Remove comments after package. Use it in cli by `--removeComments`, or in params as `removeComments:true`
+
+### externalHelpers
+
+If you do not wish the babel helpers to be included in your bundle at all (but instead reference the global babelHelpers object), you may set the externalHelpers option to true and import babel-runtime in you code. Use it in cli by `--externalHelpers`, or in params as `externalHelpers:true`

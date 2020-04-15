@@ -1,7 +1,7 @@
 /**
 * ------------------------------------------
 * Rollup vue to nej
-* @version  1.2.6
+* @version  1.2.9
 * @path  __test__/build/dist/jsx-test/test.js
 * 
 * You need to check the changes after packing
