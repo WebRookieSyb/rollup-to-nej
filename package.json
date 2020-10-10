@@ -35,6 +35,7 @@
     "@tomato-js/object": "0.0.11",
     "babel-plugin-syntax-jsx": "^6.18.0",
     "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "chalk": "^4.1.0",
     "commander": "^4.1.1",
     "cosmiconfig": "^6.0.0",
     "globby": "^10.0.1",
